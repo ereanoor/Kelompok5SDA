@@ -3,17 +3,31 @@
 using namespace std;
 
 int fibonacci_bottom_up(int n) {
-    if (n <= 1) return n;
-    vector<int> dp(n+1, 0);
-    dp[1] = 1;
-    for (int i = 2; i <= n; ++i) {
-        dp[i] = dp[i-1] + dp[i-2];
+    if (n < 0) {
+        cerr << "Input tidak valid." << endl;
+        return -1;
     }
-    return dp[n];
+    if (n <= 1) return n; // Basis untuk n = 0 atau n = 1
+
+    vector<int> fib(n + 1, 0); // Inisialisasi semua elemen dengan 0
+    fib[1] = 1;                // Fibonacci ke-1 adalah 1
+
+    for (int i = 2; i <= n; ++i) {
+        fib[i] = fib[i - 1] + fib[i - 2];
+    }
+
+    return fib[n];
 }
 
 int main() {
-    int n = 10;
-    cout << fibonacci_bottom_up(n) << endl;
+    int n;
+    cout << "Masukkan nilai n: ";
+    cin >> n;
+
+    int result = fibonacci_bottom_up(n);
+    if (result != -1) {
+        cout << "Fibonacci ke-" << n << " = " << result << endl;
+    }
+
     return 0;
 }

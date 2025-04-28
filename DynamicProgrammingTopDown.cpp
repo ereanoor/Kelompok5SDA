@@ -12,5 +12,6 @@ int fibonacci_top_down(int n, vector<int>& memo) {
 int main() {
     int n = 10;
     vector<int> memo(n+1, -1); // inisialisasi semua elemen ke -1
-    cout << fibonacci_top_down(n, memo) << endl; 
+    cout << "Fibonacci ke-" << n << " = " << fibonacci_top_down(n, memo) << endl; 
+    return 0;
 }
