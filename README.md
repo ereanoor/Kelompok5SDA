@@ -59,7 +59,7 @@ Kalau graf asalnya sudah berbentuk tree, artinya dia sudah adalah spanning tree 
 ## Laporan dan PPT
 ### 1. Laporan
    [file:///C:/Users/r.%20noor%20fikhri/Downloads/LAPORAN/SDA_KEL5.pdf](https://github.com/ereanoor/Kelompok5SDA/blob/main/LAPORAN_SDA_KEL5.pdf)
-### 2.vPPT
+### 2. PPT
    https://www.canva.com/design/DAGlvI3Ty10/JWXsUaexBpyWKdXFM2czcQ/edit
 
 
