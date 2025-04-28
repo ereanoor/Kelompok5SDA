@@ -13,7 +13,7 @@ int fibonacci_bottom_up(int n) {
 }
 
 int main() {
-    int n = 10;
-    cout << "Fibonacci ke-10 = " << fibonacci_bottom_up(n) << endl;
+    int n = 9;
+    cout << "Fibonacci ke-9 = " << fibonacci_bottom_up(n) << endl;
     return 0;
 }
