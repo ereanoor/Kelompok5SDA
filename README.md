@@ -29,8 +29,11 @@ Untuk membuat algoritma menggunakan Dynamic Programming, masalah yang ingin dise
 
 - Optimal Substructure (Struktur Optimal): Aberarti solusi lengkap untuk sebuah masalah bisa dibentuk dari solusi-solusi masalah kecil di dalamnya. Jadi, selain masalahnya harus punya bagian-bagian kecil yang saling tumpang tindih, bagian-bagian kecil ini juga harus punya sifat "optimal" (terbaik), supaya bisa digabungkan menjadi solusi akhir yang benar.
 
-- Contoh: Menghitung deret fibonacci.
-- Prinsip: Memecah masalah menjadi sub-masalah kecil, menyimpan hasilnya untuk menghindari perhitungan ulang.
+Teknik yang digunakan dalam Dynamic Proggraming:
+- Memoization, adalah teknik dalam Dynamic Programming untuk menyimpan hasil submasalah yang sudah dihitung, sehingga tidak perlu dihitung ulang. Dengan pendekatan top-down, program memecah masalah besar menjadi submasalah kecil, menyimpan hasilnya, dan memeriksa terlebih dahulu apakah hasil tersebut sudah ada sebelum menghitungnya lagi.
+- Tabulation adalah teknik dalam Dynamic Programming yang menyimpan solusi submasalah dalam sebuah tabel (array), mulai dari submasalah yang paling dasar. Pendekatan ini bottom-up, artinya kita menyelesaikan submasalah terkecil terlebih dahulu, lalu membangun solusi dari bawah ke atas. Berbeda dengan memoization, tabulation tidak menggunakan rekursi, melainkan iterasi untuk mengisi tabel dengan solusi yang sudah dihitung.
+
+Contoh: Menghitung deret fibonacci.
 
 ### 2. Minimum Spanning Tree (MST)
 
