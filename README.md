@@ -56,7 +56,7 @@ Kalau graf asalnya sudah berbentuk tree, artinya dia sudah adalah spanning tree 
 
 ---
 
-## Laporan dan PPT
+## Github dan PPT
 1. Clone repository:
    ```bash
    [git clone https://github.com/username/nama-repo.git](https://github.com/ereanoor/Kelompok5SDA.git)
